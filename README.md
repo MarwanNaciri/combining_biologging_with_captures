@@ -1,6 +1,8 @@
 # combining_biologging_with_captures
 Data and code for "A capture-recapture framework for combining biologging data with physical captures to decompose and estimate demographic rates: simulations across life cycles and application to polar bears" by Marwan Naciri, Jon Aars, Magnus Andersen, Andrew E. Derocher, Øystein Wiig, and Sarah Cubaynes 
 
+[![DOI](https://zenodo.org/badge/1098295196.svg)](https://doi.org/10.5281/zenodo.17632764)
+
 The files are organized into three main folders:
 
 1. 01_inputs which contains all files required to run analyses on Svalbard polar bears. 
@@ -25,3 +27,11 @@ The files are organized into three main folders:
     - 04_plot_supplementary_figures.R: to plot the figures presented in the supplementary materials. Requires the outputs from all simulations (see below), the output of the model that makes use of biologging data applied to the Svalbard polar bear dataset, and the output of the model that does not make use of biologging data applied to the Svalbard polar bear dataset (see below).
 
 3. 03_outputs which contains the outputs of the case study, as the models take >15h to run. Also contains a folder for the outptus of the simulations, but the outputs themeselves were not included to limit the size of the folder.
+
+
+Software and package version:
+R version 4.5.2
+nimble version 1.3.0
+tidyverse version 2.0.0
+patchwork version 1.3.2
+Rstudio version 2025.9.2.418
