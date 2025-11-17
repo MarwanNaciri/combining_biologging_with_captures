@@ -1,0 +1,16 @@
+'CR_model_with_remote.R': used to process the input data and run the CR model 
+                          incorporating 'remote captures'. The code can be run on 
+                          an HPC cluster using the 'CR_model_with_remote.sbatch'
+                          sbatch file. 
+                          This model is in the discrete latent sate formulation. 
+                          It is in the process of being marginalized
+                          
+                          
+'CR_model_without_remote.R': used to process the input data and run the CR model 
+                             that ignores 'remote captures'. The code can be run on 
+                             an HPC cluster using the 'CR_model_without_remote.sbatch'
+                             sbatch file. 
+                             This model is in the marginalized formulation of CR
+                             model which improves mixing, speeds-up convergence,
+                             and reduces the time per iteration of the MCMC chain.
+                          

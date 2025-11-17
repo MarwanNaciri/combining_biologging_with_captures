@@ -1,0 +1,8 @@
+01_simulate_datasets.R: used to generate datasets resembling the dataset used in
+                        the case study: similar probability of recapture,
+                        similar probability of being fitted with a tracking collar
+                        or a GLS tag, similar lifespan of tracking collars and 
+                        GLS tags, etc.
+                
+02_run_model.R: used to analyze the simulated datasets with the CR model presented
+                in the article. The outputs are used to plot figures.
