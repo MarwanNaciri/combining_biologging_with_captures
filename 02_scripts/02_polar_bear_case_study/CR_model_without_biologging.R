@@ -1132,7 +1132,6 @@ CR_model <- nimbleCode({
 # Need to run that twice (in parallel) to get two chains. ~18h per chain on an 
 # HPC cluster
 
-
 start <- Sys.time()  # 
 # Create R model
 inits_values <- inits()

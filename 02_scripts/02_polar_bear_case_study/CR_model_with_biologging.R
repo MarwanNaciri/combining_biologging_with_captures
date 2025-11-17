@@ -4,7 +4,7 @@ library(nimble)
 
 ## 1. Load and process data ----------------------------------------------------
 
-data_CR_events <-  read_csv("01_inputs/CR_GPS_GLS_events.csv", show_col_types = F) %>%
+data_CR_events <-  read_csv("01_inputs/CR_biologging_events.csv", show_col_types = F) %>%
   mutate(date = ymd(paste0(year, "-01-01")) + day_number - 1,
          date_ref = ymd(paste0(year-1, "-01-01")),
          doy_capture = as.numeric(date - date_ref + 1)) 
